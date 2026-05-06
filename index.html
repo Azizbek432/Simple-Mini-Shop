@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Mini Shop | Azizbek Abdullayev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="logo">Do'kon</h1>
+
+    <div class="product-card">
+      <p>Noutbuk -- 8 500 000 so'm</p>
+      <button class="add_laptop" id="add_laptop">Savatga +</button>
+    </div>
+    <div class="product-card">
+      <p>Sichqoncha -- 180 000 so'm</p>
+      <button class="add_mouse" id="add_mouse">Savatga +</button>
+    </div>
+    <div class="product-card">
+      <p>Klaviatura -- 350 000 so'm</p>
+      <button class="add_keyboard" id="add_keyboard">Savatga +</button>
+    </div>
+
+    <div class="cart-section">
+      <h3 class="cart">Savat</h3>
+      <hr />
+      <div id="cartItems">
+        <p class="empty">Savat bo'sh</p>
+        <div class="product_list"></div>
+        <div>
+          <p class="totalPrice">Jami: <span id="totalPrice">0</span> so'm</p>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
